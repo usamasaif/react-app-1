@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted,react-app-1-runner]
+    runs-on: [self-hosted,react-app-runner]
 
     env:
       PM2_PROCESS_NAME: react-app-1
