@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build:
-    runs-on: [self-hosted, reactapp1-runner]
+    runs-on: [self-hosted, react-app1-runner]
     env:
       PM2_PROCESS_NAME: react-app-1
       PORT: 3000
